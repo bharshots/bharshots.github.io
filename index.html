@@ -1,145 +1,59 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <title>Bharat Srirangam Photography</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <meta property="og:title" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
-    </style>
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/font-mfizz.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-</head>
-
-<body>
-
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="logo" href="index.html"><h1 style="font-size:32px !important; height: 32px !important; width:auto;margin:0;padding:0;position:relative; top:-.2em;display:inline;color:#1b1819">Bharat</h1></a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home" class="scroll">Home</a></li>
-                <li><a href="#portfolio" class="scroll">Portfolio</a></li>
-                <!-- <li><a href="./archive.html" target="_blank">Projects</a></li> -->
-                <li><a href="#contact" class="scroll">Contact</a></li>
-            </ul>
-        </div><!--/.navbar-collapse -->
+---
+---
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    {% include favicon.html %}
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/zoom.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4c9066f1a6.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <!--------------- YOUR NAME OVER HERE -------------->
+      <h2 class="header">{{ site.full_name }}</h2>
+      <div id="gallery">
+      </div>
     </div>
-</div>
-
-<header id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6">
-                <a href="index.html"><h1 style="font-size:32px !important; height: 32px !important; width:auto;margin:0;padding:0;position:relative; top:-.2em;">Bharat</h1></a>
-            </div>
-            <div class="col-xs-6 signin text-right navbar-nav">
-                <a href="#home" class="scroll">Home</a>&nbsp; &nbsp;<a href="#personal" class="scroll">Personal</a>&nbsp; &nbsp;<a href="#resume" class="scroll">Resume</a>&nbsp; &nbsp;<!--<a href="./archive.html">Projects</a>&nbsp;--> &nbsp;<a href="#contact" class="scroll">Contact</a>
-            </div>
-        </div>
-
-        <div class="row header-info">
-            <div class="col-sm-10 col-sm-offset-1 text-center">
-                <img src="pictures/InstagramProfile.jpg" class="rounded-circle img-thumbnail" style="width:20%; height:auto; border-radius:50%;"/>
-                <h1 class="wow fadeIn" style="color: #fffff0">Bharat Srirangam</h1>
-                <br/>
-
-                <div class="row">
-                            <div class="text-center wow fadeInUp inline" data-wow-delay="1s">
-                                <a href="#portfolio" style="background-color: #fffff0" class="btn btn-secondary btn-lg scroll">Portfolio</a>
-                            </div>
-                            <div class="inline"><p></p></div>
-                            <div class="text-center wow fadeInUp inline" data-wow-delay="1s">
-                                <a href="#contact" style="background-color: #fffff0" class="btn btn-secondary btn-lg scroll">Contact/Inquiries</a>
-                            </div>
-                </div>
-
-            </div>
-        </div>
+    <a href="https://github.com/andyzg/gallery"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    <div class="footer">
+      <div class="links">
+        <a id="instagram" class="links__icon" href="https://www.instagram.com/{{ site.instagram }}">
+          <span class="view-ig"> View {{ site.full_name }}'s Instagram </span>
+          <i class="fa fa-instagram fa-lg"></i>
+        </a>
+      </div>
     </div>
-</header>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+  <script src="js/transition.js"></script>
+  <script src="js/zoom.min.js"></script>
+  <script src="js/gallery.js"></script>
+  <script>
+    var COLUMNS = 'columns';
+    var ROWS = 'rows';
+    var SQUARES = 'squares';
 
-<div id="portfolio" class="pad-lg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="gallery">
-                  <img src="pictures/horizontals/pic1.jpg" alt="Cinque Terre" width="600" height="400">
-              </div>
-              
-              <div class="gallery">
-                  <img src="pictures/verticals/pic2.jpg" alt="Forest" width="600" height="400">
-              </div>
-              
-              <div class="gallery">
-                  <img src="pictures/horizontals/pic3.jpg" alt="Northern Lights" width="600" height="400">
-              </div>
-              
-              <div class="gallery">
-                  <img src="pictures/verticals/pic4.jpg" alt="Mountains" width="600" height="400">
-              </div>
-        </div>
-    </div>
-</div>
+    var columns = COLUMNS;
+    var rows = ROWS;
+    var squares = SQUARES;
 
-<section id="contact" style="background-color: #B9B7BD" class="pad-sm">
-    <div class="container light-gray-bg">
-            <h2 class="text-center" style="color: #666666; margin:0%;"><strong>Contact Information</strong></h3>
-            <br><br>
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <h4> If you have any question, feel free to email me! You can also message me on LinkedIn. However, I prefer email to other forms of communication.</h4>
-                    <h4 class="text-center"><strong>Email</strong>: bharatsrirangam@gatech.edu<br><strong>LinkedIn Profile</strong>: <a href="https://www.linkedin.com/in/bharat-srirangam">www.linkedin.com/in/bharat-srirangam</a></h4>
-            </div>
-    </div>
-</section>
+    var layoutStyle = {{ site.layout_style }};
 
-
-<footer style="background-color: #E7D2CC">
-    <div class="container ">
-
-        <div class="row">
-
-            <div class="col-sm-4 text-right" style="float:right">
-                <p><small>Copyright &copy; 2017. All rights reserved. <br>
-                    Website created by Bharat Srirangam</small></p>
-            </div>
-        </div>
-
-    </div>
-</footer>
-
-
-<!-- Javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
-<script src="js/wow.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/typer.js"></script>
-
-
-</body>
-    <script src="js/modernizr-2.7.1.js"></script>
-
+    var configuration = {
+      spacing: {{ site.spacing }},
+      shuffle: {{ site.shuffle }},
+      columns: {{ site.columns }},
+      maxHeight: {{ site.max_height }}
+    };
+  </script>
+  <script src="js/script.js"></script>
+  {% include ga.html %}
 </html>

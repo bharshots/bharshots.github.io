@@ -1,0 +1,124 @@
+{
+  "Photography": [
+    {
+      "width": 5855,
+      "height": 2797,
+      "path": "./photos/Photography/InstaDay18.jpg",
+      "compressed_path": "./photos/Photography/InstaDay18.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay18.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay25.jpg",
+      "compressed_path": "./photos/Photography/InstaDay25.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay25.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay9.jpg",
+      "compressed_path": "./photos/Photography/InstaDay9.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay9.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay23.jpg",
+      "compressed_path": "./photos/Photography/InstaDay23.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay23.placeholder.jpg"
+    },
+    {
+      "width": 3540,
+      "height": 5699,
+      "path": "./photos/Photography/InstaDay8.jpg",
+      "compressed_path": "./photos/Photography/InstaDay8.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay8.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay21.jpg",
+      "compressed_path": "./photos/Photography/InstaDay21.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay21.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay35.jpg",
+      "compressed_path": "./photos/Photography/InstaDay35.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay35.placeholder.jpg"
+    },
+    {
+      "width": 6016,
+      "height": 4016,
+      "path": "./photos/Photography/InstaDay20.jpg",
+      "compressed_path": "./photos/Photography/InstaDay20.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay20.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay6.jpg",
+      "compressed_path": "./photos/Photography/InstaDay6.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay6.placeholder.jpg"
+    },
+    {
+      "width": 5635,
+      "height": 3829,
+      "path": "./photos/Photography/InstaDay7.jpg",
+      "compressed_path": "./photos/Photography/InstaDay7.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay7.placeholder.jpg"
+    },
+    {
+      "width": 6016,
+      "height": 4016,
+      "path": "./photos/Photography/InstaDay17.jpg",
+      "compressed_path": "./photos/Photography/InstaDay17.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay17.placeholder.jpg"
+    },
+    {
+      "width": 6016,
+      "height": 4016,
+      "path": "./photos/Photography/InstaDay16.jpg",
+      "compressed_path": "./photos/Photography/InstaDay16.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay16.placeholder.jpg"
+    },
+    {
+      "width": 6016,
+      "height": 4016,
+      "path": "./photos/Photography/InstaDay1.jpg",
+      "compressed_path": "./photos/Photography/InstaDay1.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay1.placeholder.jpg"
+    },
+    {
+      "width": 6016,
+      "height": 4016,
+      "path": "./photos/Photography/InstaDay3.jpg",
+      "compressed_path": "./photos/Photography/InstaDay3.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay3.placeholder.jpg"
+    },
+    {
+      "width": 4016,
+      "height": 6016,
+      "path": "./photos/Photography/InstaDay2.jpg",
+      "compressed_path": "./photos/Photography/InstaDay2.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Photography/InstaDay2.placeholder.jpg"
+    }
+  ]
+}
