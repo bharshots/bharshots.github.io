@@ -1,13 +1,11 @@
 #title {
-    text-align: center;
-    font-family: Raleway, sans-serif;
 }
 
 #aboutMe {
     text-align: justify;
     font-family: Raleway, sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 18%;
+    padding-right: 18%;
     opacity: 70%;
     line-height: normal;
 }
