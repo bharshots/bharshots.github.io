@@ -42,6 +42,7 @@ class Renderer {
 
   createHeader(title) {
     var sectionElem = document.createElement('section');
+    sectionElem.setAttribute("margin-bottom", "64px")
     sectionElem.id = title;
     var header = document.createElement('h3');
     header.innerHTML = title;
