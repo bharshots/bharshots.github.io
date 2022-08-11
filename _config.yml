@@ -3,10 +3,10 @@
 #############################
 
 # The title that appears on the tab
-title: Bharat Srirangam's Portfolio
+title: Bhar_Shots Photography
 
 # The title on the web page
-full_name: Bharat Srirangam
+full_name: Bhar_Shots Photography
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
@@ -28,7 +28,7 @@ columns: 4
 max_height: 400
 
 # Handle
-instagram: andy.fuji
+instagram: bhar_shots
 
 ######################
 # END OF CONFIG CODE #

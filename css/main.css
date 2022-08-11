@@ -1,0 +1,17 @@
+#title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+#aboutMe {
+    text-align: justify;
+    font-family: Raleway, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    opacity: 70%;
+    line-height: normal;
+}
+
+strong {
+    opacity: 100%;
+}
